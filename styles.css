@@ -1,0 +1,92 @@
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .logo {
+        height: 55px;
+    }
+    .jumbo {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./images/ocean-responsive.jpeg");
+        background-size: 100% 50%;
+        /* background-repeat: no-repeat; */
+        height: 300px;
+        /* width: 100%; */
+        /* position: absolute; */
+    }
+    .jumbo-inner {
+        padding: 60px 0 !important;
+    }
+    .jumbo-header {
+        font-size: 20px;
+    }
+    .tagline {
+        font-size: 15px !important;
+    }
+    .jumbo-button {
+        border-radius: 25px !important;
+        height: 50px !important;
+        padding: 13px 10px !important;
+        font-size: 15px !important;
+    }
+    .middle-banner {
+        height: 375px !important;
+        text-align: center;
+        padding-right: 30px !important;
+        padding-top: 100px !important;
+    }
+    .middle-banner-tagline {
+        font-size: 17px !important;
+    }
+    .middle-banner-button {
+        font-size: 16px !important;
+        margin-top: 30px;
+    }
+}
+
+.logo {
+    max-height: 75px;
+}
+
+.jumbo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./images/ocean.jpeg");
+    background-repeat: no-repeat;
+    height: 702px;
+    width: 100%;
+    position: absolute;
+}
+
+.jumbo-inner {
+    color: white;
+    padding: 200px 0;
+    text-align: center;
+    position: relative;
+}
+
+.tagline {
+    font-size: 25px;
+}
+
+.jumbo-button {
+    border-radius: 45px;
+    height: 80px;
+    padding: 25px 30px;
+    font-size: 20px;
+}
+
+.middle-banner {
+    height: 500px;
+    color: white;
+    padding-right: 25px;
+    padding-top: 400px;
+}
+
+.middle-banner-tagline {
+    font-size: 25px;
+    padding-right: 35px;
+}
+
+.middle-banner-button {
+    font-size: 25px;
+    margin-left: 5px;
+}
