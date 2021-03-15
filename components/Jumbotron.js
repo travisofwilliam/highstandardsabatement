@@ -7,7 +7,7 @@ const Jumbotron = () => {
             <h1 className='jumbo-header'><strong>San Diego’s Restoration/Renovation Professionals</strong></h1>
                 <br/>
                 <br/>
-                <p className='tagline'>When standards matter most.</p>
+                <p className='tagline'><strong>When standards matter most.</strong></p>
                 <br/>
                 <br/>
                 <p><button className="btn btn-danger jumbo-button" type="submit">

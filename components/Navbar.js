@@ -8,7 +8,7 @@ const Navbar = () => {
                 <span className="navbar-toggler-icon"></span>
             </button>
 
-            <div className="collapse navbar-collapse" style={{color: 'black'}} id="navbarSupportedContent">
+            <div className="collapse navbar-collapse links" style={{color: 'black'}} id="navbarSupportedContent">
                 <ul className="navbar-nav ml-auto mr-3">
                     <li className="nav-item">
                         <a className="nav-link" href="#"><strong>Home</strong></a>
@@ -23,10 +23,7 @@ const Navbar = () => {
                         <a className="nav-link" href="#"><strong>Contact</strong></a>
                     </li>
                 </ul>
-                <button className="btn btn-danger my-2 my-sm-0 nav-button" style={{
-                    borderRadius: '50px',
-                    padding: '15px 30px'
-                }} type="submit"><strong><i className="fas fa-phone pr-2"></i>(760)-550-7739</strong></button>
+                <button className="btn btn-danger my-2 my-sm-0 nav-button" type="submit"><strong><i className="fas fa-phone pr-2"></i>(760)-550-7739</strong></button>
             </div>
         </nav>
     )
